@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - A Pen by  BASHIR</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<div class="container">
+  <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+  <header class="header">
+    <h1 id="title" class="text-center">Council Survey Form</h1>
+    <p id="description" class="description text-center">
+      Can you please spend sometime by filling this to help us improve our services
+    </p>
+  </header>
+  <form id="survey-form">
+    <div class="form-group">
+      <label id="name-label" for="name">Name</label>
+      <input
+        type="text"
+        name="name"
+        id="name"
+        class="form-control"
+        placeholder="Enter your name"
+        required
+      />
+    </div>
+    <div class="form-group">
+      <label id="council ref-label" for="council ref">council ref</label>
+      <input
+        type="council ref"
+        name="council ref"
+        id="council ref"
+        class="form-control"
+        placeholder="Enter your ref"
+        required
+      />
+    </div>
+    <div class="form-group">
+      <p>What type of your property</p>
+      <select id="dropdown" name="role" class="form-control" required>
+        <option disabled selected value>Select type</option>
+        <option value="student">Private</option>
+        <option value="job">Housing association</option>
+        <option value="learner">council house</option>
+        <option value="preferNo">Own</option>
+        <option value="other">Other</option>
+      </select>
+    </div>
+
+    <div class="form-group">
+      <p>Any comments or suggestions?</p>
+      <textarea
+        id="comments"
+        class="input-textarea"
+        name="comment"
+        placeholder="Enter your comment here..."
+      ></textarea>
+    </div>
+
+    <div class="form-group">
+      <button type="submit" id="submit" class="submit-button">
+        Send your answers
+      </button>
+    </div>
+  </form>
+</div>
+<!-- partial -->
+  
+</body>
+</html>
